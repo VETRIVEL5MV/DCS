@@ -1,0 +1,126 @@
+.wrapper {
+    display: grid;
+	grid-template-columns: 50px 50px 50px 50px 50px;
+	grid-gap: 50px;	 
+	outline: 5px solid yellow;
+	outline-style: ridge;    }
+      body{
+      	background-color: rgb(25, 151, 209);
+      	background-image: url(as.jpg);
+      	background-size: cover;
+      }
+	  @media screen and (max-width :900px)
+	  {
+		body {
+			background-color: rgb(168, 37, 37);	
+		}
+	  }
+	  p{
+	  	font-size: 20px;
+	  	text-decoration-color: rgb(155,75,120);
+	  	text-align: center;
+	  	text-transform: uppercase;
+	  	text-decoration-line: underline;
+	  	text-shadow: 0 0 5px #0cd41d;
+	  	text-indent: 50px;
+	  		  }
+.new{
+	background-color:violet;
+	height: 300px;
+	display: flex;
+	flex-direction:row;
+	/*flex-wrap: wrap;
+	flex-direction: row-reverse;*/
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.new >div{
+	background-color: rgb(236, 110, 7);
+	padding: 10px;
+	margin:20px;
+	font-size:30px;
+	font-weight: bold;
+	float: left;
+	color: rgb(95, 156, 212);
+}
+
+button{
+border-color: rgba(15, 226, 8, 0.719);
+border-radius: 20px;
+border-style: dashed;
+background-color: violet;
+
+}
+button:hover{
+	color: rgba(32, 216, 87, 0.822);
+}
+button:visited{
+	color: blue;
+}
+ul{
+	list-style-type: disc;
+	list-style-position: inside;
+	color: gold;
+	}
+
+	
+		
+		
+
+	  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*  
+	
+	animation: changeBg 5s infinite
+      	alternate linear;
+	
+	
+	@keyframes changeBg{
+      	0%{
+      		background:#ee6055;
+      	}
+      	25%{
+      		background: #60d394;
+      		      	}
+      	50%{
+background:#aaf683;
+      	}    	
+    	75%{
+      		background:#ffd97d;
+      	}
+      	100%{
+      		background:#ff9b85;
+      	}
+      	}*/
+
+
+/*      grid-template-columns: 50px 50px 50px 50px 50px;
+    gap: 5px;
+    background-color: #f50a1d;
+    padding: 5px;*/
